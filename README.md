@@ -4,6 +4,8 @@ A Python-based PDF Report Generator built with FastAPI, SQLite, HTML, and Playwr
 
 The application queries order data from SQLite, generates a formatted PDF report using HTML and Chromium, stores the report on disk, and exposes API endpoints to retrieve and download reports.
 
+The sample dataset can be regenerated locally at any time by running python seed.py.
+
 ## Features
 
 - FastAPI REST API
